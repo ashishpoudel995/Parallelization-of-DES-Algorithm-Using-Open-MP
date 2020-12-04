@@ -1,13 +1,11 @@
 # Parallelization-of-DES-Algorithm-Using-Open-MP
 
 ## 1. Parallel Implementation of DES Algorithm
-For the parallel Implementation of DES Algorithm, plain text is read from the plaintext.txt file and stored in a string. The string is divided into strings with length=8 each and stored in string array. <tbd>
+For the parallel Implementation of DES Algorithm, plain text is read from the plaintext.txt file and stored in a string. The string is divided into strings with length=8 each and stored in string array.
+Then, the divided strings stored in arrays are parallely encrypted and decrypted. Vectors are also used for making the process easy.
 
 ### Why length=8 is taken for splitting the string?
 The ASCII value is taken into consideration and an alphabet corresponds to 8 bit binary when ASCII is taken into consideration.
-
-<contd..>
-Then, the divided strings stored in arrays are parallely encrypted and decrypted. Vectors are also used for making the process easy.
 
 ## 2. S Box Parallelism
 S box is separately parallelized and the implementation code is available in Codes folder. S Box parallelism consumed more time than Technique 1. This might be due to thread overhead.
