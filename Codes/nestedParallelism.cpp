@@ -88,7 +88,6 @@ string encryption(string pt,vector<string> roundKeys)
 } 
 int main(){
 	double t1=omp_get_wtime();
-	int apple=0;
 	//Reading from the file and storing the plaintext in pt vector
 	vector<string> pt;
 	string c,temp;
