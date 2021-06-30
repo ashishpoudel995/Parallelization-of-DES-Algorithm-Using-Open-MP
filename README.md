@@ -1,5 +1,12 @@
 # Parallelization-of-DES-Algorithm-Using-Open-MP
 
+<p>
+<h4><i>Language Used:</i></h4> 
+  <p>
+    <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white">
+  </p>
+</p>
+
 ## 1. Parallel Implementation of DES Algorithm
 For the parallel Implementation of DES Algorithm, plain text is read from the plaintext.txt file and stored in a string. The string is divided into strings with length=8 each and stored in string array.
 Then, the divided strings stored in arrays are parallely encrypted and decrypted. Vectors are also used for making the process easy.
